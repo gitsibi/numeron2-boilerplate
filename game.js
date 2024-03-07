@@ -30,6 +30,9 @@ document.addEventListener("DOMContentLoaded", function() {
         number2 = Math.floor(Math.random() * 100); // Random number between 0 and 100
         number1Element.textContent = number1;
         number2Element.textContent = number2;
+
+        number3 = Math.floor(Math.random() * 100) + 1; // Random number between 1 and 100
+        number3Element.textContent = number3;
     }
 
     // Function to generate a random operator
